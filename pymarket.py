@@ -26,7 +26,7 @@ import json
 from prettytable import PrettyTable
 
 config = configparser.ConfigParser()
-config.read("./configSETNSBU.ini")
+config.read("./config.ini")
 strProdURL      = config.get("vmcConfig", "strProdURL")
 strCSPProdURL   = config.get("vmcConfig", "strCSPProdURL")
 Refresh_Token   = config.get("vmcConfig", "refresh_Token")
